@@ -7,6 +7,7 @@ import { useFavorites } from "@/hooks/useFavorites";
 import React, { useEffect } from "react";
 import { FlatList, ListRenderItem, Text, View } from "react-native";
 const fond = require("../../assets/images/fond.png");
+
 export default function FavoritesScreen() {
   const {
     setWeatherData,
